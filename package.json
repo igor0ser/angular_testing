@@ -22,6 +22,7 @@
     "url": "git+https://github.com/igor0ser/anular_testing"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "karma-es6-shim": "^1.0.0"
   }
 }

@@ -1,9 +1,10 @@
-/*describe('Search Controller', () => {
+describe('Search Controller', () => {
 	it('should redirect to the query results page for non-empty query', () => {
 		var $scope = {};
-		angular.mock.module('name');
-		angular.mock.inject( _testObj_ => testObj = _testObj_ );
+		var $location = {};
+		$scope.query = 'star wars';
+		$scope.search();
 
-		expect(testObj.func(arg)).toEqual(something);
+		expect($location.url).toBe('/results&q=star%20wars');
 	});
-});*/
+});
